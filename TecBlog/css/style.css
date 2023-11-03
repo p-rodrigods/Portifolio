@@ -7,7 +7,6 @@
 body{
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
-    font-weight: bold;
     background: #e6e6e6;
 }
 
@@ -16,22 +15,38 @@ h1{
     font-size: 2.5em;
 }
 
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
 a{
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:link, a:visited{
+    color:#f7b600;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
     color:#fff;
     padding: 8px 12px;
 }
 
-a:hover{
+#area-cabecalho a:hover{
     color: #f7b600;
     background: #fff;
-}
-
-.branco{
-    color: white;
+    text-decoration: none;
 }
 
 /*LAYOUT*/
@@ -43,4 +58,72 @@ a:hover{
 
 #area-logo, #area-menu{
     padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    background: #CCC;
+    font-size: 0.9em;
+    padding: 15px;
+}
+
+/*CLASSES*/
+.branco{
+    color: white;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.postagem > img{
+    width: 620px;
+}
+
+.postagem > p{
+    margin-bottom: 10px;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    display: block;
+    padding: 5px 0 10px 0;
+    font-weight: bold;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    padding: 5px;
+    font-size: 0.8em;
+    border-bottom: 2px solid #CCC;
+}
+
+.postagem-lateral > p{
+    margin-bottom: 3px;
 }
