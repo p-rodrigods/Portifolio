@@ -42,8 +42,24 @@ input.submit{
     margin-top: 3px;
 }
 
-/*IDS*/
+img{
+    width: 100%;
+}
 
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #d3d3d3;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+
+/*ID*/
 #topo ul{
     background: #b10333;
     margin-top: 30px;
@@ -114,18 +130,11 @@ input.submit{
     background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
     padding-left: 20px;
 }
+
 #primario{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
-}
-
-#secundario{
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 15px;
-    background: green;
 }
 
 #duas-colunas #primario{
@@ -135,6 +144,12 @@ input.submit{
 #uma-coluna #primario{
     width: 720px;
     margin: 0 0 20px 0px;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
 }
 
 #container-rodape{
@@ -181,4 +196,14 @@ body.fotos #navegacao a#fotos{
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
+    color: #fff;
 }
