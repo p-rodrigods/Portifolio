@@ -6,7 +6,7 @@
     <title>Notícias Cidade - Seu site de notícias</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="home">
+<body class="home" id="tres-coluna">
     <div id="container">
         <div id="topo">
             <h1 class="logo">
@@ -23,11 +23,74 @@
             </ul><!--FIM MENU-->
         </div><!--FIM TOPO-->
         <div id="conteudo">
-            <div id="primario"></div>
-            <div id="secundario"></div>
-            <div id="lateral"></div>
+            <div id="primario">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        conteudo
+                    </div>
+                </div>
+            </div>
+            <div id="secundario">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        conteudo
+                    </div>
+                </div>
+            </div>
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li>
+                                <a href="#">José Almeida</a>
+                            </li>
+                            <li>
+                                <a href="#">Felipe Silva</a>
+                            </li>
+                            <li>
+                                <a href="#">Renato Rodrigues</a>
+                            </li>
+                            <li>
+                                <a href="#">Abelardo Silveira</a>
+                            </li>
+                            <li>
+                                <a href="#">André Carlos</a>
+                            </li>
+                            <li>
+                                <a href="#">Márcio Mello</a>
+                            </li>
+                            <li>
+                                <a href="#">João Pedro</a>
+                            </li>
+                            <li>
+                                <a href="#">Fernando Weis</a>
+                            </li>
+                        </ul>
+                    </div><!--FIM CAIXA ENTREVISTA-->
+                    <div class="caixa">
+                        <h2>News</h2>
+                        <div class="caixa-conteudo">
+                            <form>
+                                <div>
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" name="email" id="email" placeholder="E-mail">
+                                </div>
+                                <div>
+                                    <input type="submit" class="submit" value="Cadastrar" name="cadastrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div><!--FIM LATERAL-->
         </div><!--FIM CONTEUDO-->
     </div><!--FIM CONTAINER-->
-    <div id="Container-rodape">Rodape</div>
+    <div id="container-rodape" class="clear">
+       <div id="rodape">
+            <p>&copy; Copyright 2000-2023 Notícias Cidade</p>
+       </div>
+    </div><!--FIM RODAPE-->
 </body>
 </html>
