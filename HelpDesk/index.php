@@ -61,6 +61,11 @@
                                         Usuário ou senha inválidos(s)
                                    </div> 
                                 <?php } ?>
+                                <?php if(isset($_GET['login']) && $_GET['login'] == 'erro2'){ ?>
+                                   <div class="text-danger fw-medium mb-2">
+                                      Insira Usuario e Senha para ter acesso!
+                                   </div> 
+                                <?php } ?>
                                 <button class="btn btn-sm btn-info btn-block form-control text-light" type="submit">Entrar</button>
                             </form>
                         </div>
