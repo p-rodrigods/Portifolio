@@ -1,5 +1,10 @@
 <?php
-require_once("validador_acesso.php");
+  require_once("validador_acesso.php");
+
+  $arquivo = fopen('arquivo.hd', 'r');
+
+  
+
 ?>
 <html>
 
