@@ -8,25 +8,12 @@ require_once("validador_acesso.php");
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <title>App Help Desk</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
      <style>
-          .card-login {
-               padding: 45px 0 0;
-          }
-
-          .navbar a {
-               text-decoration: none;
-               font-weight: 500;
-               color: #fff;
-          }
-
-          .navbar-band {
-               padding: 15px;
-          }
-
-          .navbar-band img {
-               margin: 0 10px 0 20px;
+          .card-abrir-chamado {
+               width: 100%;
+               margin: 0 auto;
           }
      </style>
 </head>
@@ -38,11 +25,15 @@ require_once("validador_acesso.php");
                <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                App Help Desk
           </a>
+          <ul class="navbar-nav">
+               <li class="nav-item">
+                    <a href="logoff.php" class="nav-link ">SAIR</a>
+               </li>
+          </ul>
      </nav>
 
      <div class="container">
           <div class="row mt-5">
-
                <div class="card-abrir-chamado">
                     <div class="card">
                          <div class="card-header">

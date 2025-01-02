@@ -1,7 +1,8 @@
-<?php 
-     require_once("validador_acesso.php");
+<?php
+require_once("validador_acesso.php");
 ?>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>App Help Desk</title>
@@ -24,9 +25,14 @@
       <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
       App Help Desk
     </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="logoff.php" class="nav-link ">SAIR</a>
+      </li>
+    </ul>
   </nav>
 
-  <div class="container">    
+  <div class="container">
     <div class="row">
 
       <div class="card-consultar-chamado">
@@ -34,9 +40,9 @@
           <div class="card-header">
             Consulta de chamado
           </div>
-          
+
           <div class="card-body">
-            
+
             <div class="card mb-3 bg-light">
               <div class="card-body">
                 <h5 class="card-title">Título do chamado...</h5>
@@ -66,4 +72,5 @@
     </div>
   </div>
 </body>
+
 </html>
