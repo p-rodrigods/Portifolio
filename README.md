@@ -1,2 +1,2 @@
 # Portifolio
-Projetos para divulgar meus conhecimentos e envolução
+Projetos para divulgar meus conhecimentos e evolução
